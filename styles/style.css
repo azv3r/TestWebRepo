@@ -2,26 +2,54 @@ html {
   font-size: 18px; /* px значит 'пиксели': базовый шрифт будет 10 пикселей в высоту  */
   font-family: font-family: 'Raleway', ;
   background-color: #8bc34a;
+
 }
-h1 {
+.header {
   font-size: 30px;
   text-align: center;
 }
 
-p {
+.parag {
   font-size: 16px;    
   line-height: 2;
   letter-spacing: 1px;
 }
-body {
+.wholeBody {
   width: 600px;
   margin: 0 auto;
   background-color: #FF9500;
   padding: 0 20px 20px 20px;
   border: 5px solid black;
 }
-.center {
+.navigation, .image {
   display: block;
   margin: 0 auto;
+  
+}
+
+.image {
   width: 30%;
 }
+.link {
+  background-image: url(images/hide-the-pain-harold.jpg);
+}
+
+.button {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  /*padding: .8em 1em calc(.8em + 3px);*/
+  /*border-radius: 3px;*/
+  background: rgb(64,199,129);
+  /*box-shadow: 0 -3px rgb(53,167,110) inset;*/
+  /*transition: 0.2s;*/
+} 
+.ul {
+  
+  list-style-type: none;
+}
+/*.button:hover { background: rgb(53, 167, 110); }
+.button:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}*/
